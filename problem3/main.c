@@ -32,7 +32,7 @@ uint64_t primefact(uint64_t n)
 	return n == 1 ? primes[i] : primefact(n);
 }
 
-int main(int argc, char *argv[])
+int main(void)
 {
 	int i = 1;
 	int j = 0;
